@@ -4,6 +4,7 @@ namespace :ci do
   namespace :build do
     desc 'Run Minitest'
     task :minitest do
+      # TODO: This command needs to be fixed
       require 'minitest'
       require 'minitest/autorun'
       require 'minitest/reporters'
