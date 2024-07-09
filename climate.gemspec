@@ -36,7 +36,6 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency('brakeman')
   spec.add_runtime_dependency('minitest-reporters')
   spec.add_runtime_dependency('rubocop')
-  spec.add_runtime_dependency('rubycritic')
   spec.add_runtime_dependency('simplecov')
   spec.add_runtime_dependency('simplecov-rcov')
   spec.add_runtime_dependency('simplecov-summary')
